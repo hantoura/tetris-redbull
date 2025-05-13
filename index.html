@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Red Bull Tetris</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Red_Bull_Logo.svg" alt="Red Bull Logo" class="logo"/>
+      <h1>Gives You Wings</h1>
+    </header>
+
+    <div class="game-wrapper">
+      <canvas id="tetris" width="300" height="600"></canvas>
+      <div class="info-panel">
+        <div id="score">Score: 0</div>
+        <audio id="bgm" loop autoplay>
+          <source src="https://vgmsite.com/soundtracks/pac-man-arrangement/iqgxepzrwz/01%20Pac-Man%20Theme.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
